@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB1051B51C0EFB2A003A516E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1051B41C0EFB2A003A516E /* main.m */; };
+		CB1051B81C0EFB2A003A516E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1051B71C0EFB2A003A516E /* AppDelegate.m */; };
+		CB1051BB1C0EFB2A003A516E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1051BA1C0EFB2A003A516E /* ViewController.m */; };
+		CB1051BE1C0EFB2A003A516E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1051BC1C0EFB2A003A516E /* Main.storyboard */; };
+		CB1051C01C0EFB2A003A516E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1051BF1C0EFB2A003A516E /* Images.xcassets */; };
+		CB1051C31C0EFB2A003A516E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1051C11C0EFB2A003A516E /* LaunchScreen.xib */; };
+		CB1051CF1C0EFB2A003A516E /* LZSwitcherFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1051CE1C0EFB2A003A516E /* LZSwitcherFunTests.m */; };
+		CB1051DA1C0EFC0B003A516E /* LZOrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1051D91C0EFC0B003A516E /* LZOrangeViewController.m */; };
+		CB1051DD1C0EFC20003A516E /* LZBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1051DC1C0EFC20003A516E /* LZBlueViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB1051C91C0EFB2A003A516E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1051A71C0EFB2A003A516E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1051AE1C0EFB2A003A516E;
+			remoteInfo = LZSwitcherFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB1051AF1C0EFB2A003A516E /* LZSwitcherFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZSwitcherFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1051B31C0EFB2A003A516E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1051B41C0EFB2A003A516E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB1051B61C0EFB2A003A516E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB1051B71C0EFB2A003A516E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB1051B91C0EFB2A003A516E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB1051BA1C0EFB2A003A516E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB1051BD1C0EFB2A003A516E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB1051BF1C0EFB2A003A516E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB1051C21C0EFB2A003A516E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB1051C81C0EFB2A003A516E /* LZSwitcherFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZSwitcherFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1051CD1C0EFB2A003A516E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1051CE1C0EFB2A003A516E /* LZSwitcherFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSwitcherFunTests.m; sourceTree = "<group>"; };
+		CB1051D81C0EFC0B003A516E /* LZOrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOrangeViewController.h; sourceTree = "<group>"; };
+		CB1051D91C0EFC0B003A516E /* LZOrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOrangeViewController.m; sourceTree = "<group>"; };
+		CB1051DB1C0EFC20003A516E /* LZBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBlueViewController.h; sourceTree = "<group>"; };
+		CB1051DC1C0EFC20003A516E /* LZBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBlueViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1051AC1C0EFB2A003A516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1051C51C0EFB2A003A516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1051A61C0EFB2A003A516E = {
+			isa = PBXGroup;
+			children = (
+				CB1051B11C0EFB2A003A516E /* LZSwitcherFun */,
+				CB1051CB1C0EFB2A003A516E /* LZSwitcherFunTests */,
+				CB1051B01C0EFB2A003A516E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1051B01C0EFB2A003A516E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1051AF1C0EFB2A003A516E /* LZSwitcherFun.app */,
+				CB1051C81C0EFB2A003A516E /* LZSwitcherFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1051B11C0EFB2A003A516E /* LZSwitcherFun */ = {
+			isa = PBXGroup;
+			children = (
+				CB1051B61C0EFB2A003A516E /* AppDelegate.h */,
+				CB1051B71C0EFB2A003A516E /* AppDelegate.m */,
+				CB1051B91C0EFB2A003A516E /* ViewController.h */,
+				CB1051BA1C0EFB2A003A516E /* ViewController.m */,
+				CB1051BC1C0EFB2A003A516E /* Main.storyboard */,
+				CB1051BF1C0EFB2A003A516E /* Images.xcassets */,
+				CB1051C11C0EFB2A003A516E /* LaunchScreen.xib */,
+				CB1051B21C0EFB2A003A516E /* Supporting Files */,
+				CB1051D81C0EFC0B003A516E /* LZOrangeViewController.h */,
+				CB1051D91C0EFC0B003A516E /* LZOrangeViewController.m */,
+				CB1051DB1C0EFC20003A516E /* LZBlueViewController.h */,
+				CB1051DC1C0EFC20003A516E /* LZBlueViewController.m */,
+			);
+			path = LZSwitcherFun;
+			sourceTree = "<group>";
+		};
+		CB1051B21C0EFB2A003A516E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1051B31C0EFB2A003A516E /* Info.plist */,
+				CB1051B41C0EFB2A003A516E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB1051CB1C0EFB2A003A516E /* LZSwitcherFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB1051CE1C0EFB2A003A516E /* LZSwitcherFunTests.m */,
+				CB1051CC1C0EFB2A003A516E /* Supporting Files */,
+			);
+			path = LZSwitcherFunTests;
+			sourceTree = "<group>";
+		};
+		CB1051CC1C0EFB2A003A516E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1051CD1C0EFB2A003A516E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1051AE1C0EFB2A003A516E /* LZSwitcherFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1051D21C0EFB2A003A516E /* Build configuration list for PBXNativeTarget "LZSwitcherFun" */;
+			buildPhases = (
+				CB1051AB1C0EFB2A003A516E /* Sources */,
+				CB1051AC1C0EFB2A003A516E /* Frameworks */,
+				CB1051AD1C0EFB2A003A516E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZSwitcherFun;
+			productName = LZSwitcherFun;
+			productReference = CB1051AF1C0EFB2A003A516E /* LZSwitcherFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB1051C71C0EFB2A003A516E /* LZSwitcherFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1051D51C0EFB2A003A516E /* Build configuration list for PBXNativeTarget "LZSwitcherFunTests" */;
+			buildPhases = (
+				CB1051C41C0EFB2A003A516E /* Sources */,
+				CB1051C51C0EFB2A003A516E /* Frameworks */,
+				CB1051C61C0EFB2A003A516E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1051CA1C0EFB2A003A516E /* PBXTargetDependency */,
+			);
+			name = LZSwitcherFunTests;
+			productName = LZSwitcherFunTests;
+			productReference = CB1051C81C0EFB2A003A516E /* LZSwitcherFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1051A71C0EFB2A003A516E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.comst1314;
+				TargetAttributes = {
+					CB1051AE1C0EFB2A003A516E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CB1051C71C0EFB2A003A516E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CB1051AE1C0EFB2A003A516E;
+					};
+				};
+			};
+			buildConfigurationList = CB1051AA1C0EFB2A003A516E /* Build configuration list for PBXProject "LZSwitcherFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1051A61C0EFB2A003A516E;
+			productRefGroup = CB1051B01C0EFB2A003A516E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1051AE1C0EFB2A003A516E /* LZSwitcherFun */,
+				CB1051C71C0EFB2A003A516E /* LZSwitcherFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1051AD1C0EFB2A003A516E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1051BE1C0EFB2A003A516E /* Main.storyboard in Resources */,
+				CB1051C31C0EFB2A003A516E /* LaunchScreen.xib in Resources */,
+				CB1051C01C0EFB2A003A516E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1051C61C0EFB2A003A516E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1051AB1C0EFB2A003A516E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1051DA1C0EFC0B003A516E /* LZOrangeViewController.m in Sources */,
+				CB1051BB1C0EFB2A003A516E /* ViewController.m in Sources */,
+				CB1051B81C0EFB2A003A516E /* AppDelegate.m in Sources */,
+				CB1051DD1C0EFC20003A516E /* LZBlueViewController.m in Sources */,
+				CB1051B51C0EFB2A003A516E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1051C41C0EFB2A003A516E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1051CF1C0EFB2A003A516E /* LZSwitcherFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB1051CA1C0EFB2A003A516E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB1051AE1C0EFB2A003A516E /* LZSwitcherFun */;
+			targetProxy = CB1051C91C0EFB2A003A516E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB1051BC1C0EFB2A003A516E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1051BD1C0EFB2A003A516E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1051C11C0EFB2A003A516E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1051C21C0EFB2A003A516E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1051D01C0EFB2A003A516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB1051D11C0EFB2A003A516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1051D31C0EFB2A003A516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZSwitcherFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB1051D41C0EFB2A003A516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZSwitcherFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB1051D61C0EFB2A003A516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZSwitcherFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZSwitcherFun.app/LZSwitcherFun";
+			};
+			name = Debug;
+		};
+		CB1051D71C0EFB2A003A516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZSwitcherFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZSwitcherFun.app/LZSwitcherFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1051AA1C0EFB2A003A516E /* Build configuration list for PBXProject "LZSwitcherFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1051D01C0EFB2A003A516E /* Debug */,
+				CB1051D11C0EFB2A003A516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1051D21C0EFB2A003A516E /* Build configuration list for PBXNativeTarget "LZSwitcherFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1051D31C0EFB2A003A516E /* Debug */,
+				CB1051D41C0EFB2A003A516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB1051D51C0EFB2A003A516E /* Build configuration list for PBXNativeTarget "LZSwitcherFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1051D61C0EFB2A003A516E /* Debug */,
+				CB1051D71C0EFB2A003A516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1051A71C0EFB2A003A516E /* Project object */;
+}
