@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB1052341C10A321003A516E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1052331C10A321003A516E /* main.m */; };
+		CB1052371C10A321003A516E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1052361C10A321003A516E /* AppDelegate.m */; };
+		CB10523A1C10A321003A516E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1052391C10A321003A516E /* ViewController.m */; };
+		CB10523D1C10A321003A516E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB10523B1C10A321003A516E /* Main.storyboard */; };
+		CB10523F1C10A321003A516E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB10523E1C10A321003A516E /* Images.xcassets */; };
+		CB1052421C10A321003A516E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1052401C10A321003A516E /* LaunchScreen.xib */; };
+		CB10524E1C10A321003A516E /* LZTableViewFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10524D1C10A321003A516E /* LZTableViewFunTests.m */; };
+		CB1052581C10A68B003A516E /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB1052571C10A68B003A516E /* sortednames.plist */; };
+		CB10525B1C10A713003A516E /* LZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10525A1C10A713003A516E /* LZTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB1052481C10A321003A516E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1052261C10A321003A516E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB10522D1C10A321003A516E;
+			remoteInfo = LZTableViewFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB10522E1C10A321003A516E /* LZTableViewFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZTableViewFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1052321C10A321003A516E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1052331C10A321003A516E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB1052351C10A321003A516E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB1052361C10A321003A516E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB1052381C10A321003A516E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB1052391C10A321003A516E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB10523C1C10A321003A516E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB10523E1C10A321003A516E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB1052411C10A321003A516E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB1052471C10A321003A516E /* LZTableViewFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZTableViewFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB10524C1C10A321003A516E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB10524D1C10A321003A516E /* LZTableViewFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTableViewFunTests.m; sourceTree = "<group>"; };
+		CB1052571C10A68B003A516E /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		CB1052591C10A713003A516E /* LZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableViewController.h; sourceTree = "<group>"; };
+		CB10525A1C10A713003A516E /* LZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB10522B1C10A321003A516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1052441C10A321003A516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1052251C10A321003A516E = {
+			isa = PBXGroup;
+			children = (
+				CB1052301C10A321003A516E /* LZTableViewFun */,
+				CB10524A1C10A321003A516E /* LZTableViewFunTests */,
+				CB10522F1C10A321003A516E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB10522F1C10A321003A516E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB10522E1C10A321003A516E /* LZTableViewFun.app */,
+				CB1052471C10A321003A516E /* LZTableViewFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1052301C10A321003A516E /* LZTableViewFun */ = {
+			isa = PBXGroup;
+			children = (
+				CB1052351C10A321003A516E /* AppDelegate.h */,
+				CB1052361C10A321003A516E /* AppDelegate.m */,
+				CB1052381C10A321003A516E /* ViewController.h */,
+				CB1052391C10A321003A516E /* ViewController.m */,
+				CB10523B1C10A321003A516E /* Main.storyboard */,
+				CB10523E1C10A321003A516E /* Images.xcassets */,
+				CB1052401C10A321003A516E /* LaunchScreen.xib */,
+				CB1052311C10A321003A516E /* Supporting Files */,
+				CB1052591C10A713003A516E /* LZTableViewController.h */,
+				CB10525A1C10A713003A516E /* LZTableViewController.m */,
+			);
+			path = LZTableViewFun;
+			sourceTree = "<group>";
+		};
+		CB1052311C10A321003A516E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1052571C10A68B003A516E /* sortednames.plist */,
+				CB1052321C10A321003A516E /* Info.plist */,
+				CB1052331C10A321003A516E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB10524A1C10A321003A516E /* LZTableViewFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB10524D1C10A321003A516E /* LZTableViewFunTests.m */,
+				CB10524B1C10A321003A516E /* Supporting Files */,
+			);
+			path = LZTableViewFunTests;
+			sourceTree = "<group>";
+		};
+		CB10524B1C10A321003A516E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB10524C1C10A321003A516E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB10522D1C10A321003A516E /* LZTableViewFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1052511C10A321003A516E /* Build configuration list for PBXNativeTarget "LZTableViewFun" */;
+			buildPhases = (
+				CB10522A1C10A321003A516E /* Sources */,
+				CB10522B1C10A321003A516E /* Frameworks */,
+				CB10522C1C10A321003A516E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZTableViewFun;
+			productName = LZTableViewFun;
+			productReference = CB10522E1C10A321003A516E /* LZTableViewFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB1052461C10A321003A516E /* LZTableViewFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1052541C10A321003A516E /* Build configuration list for PBXNativeTarget "LZTableViewFunTests" */;
+			buildPhases = (
+				CB1052431C10A321003A516E /* Sources */,
+				CB1052441C10A321003A516E /* Frameworks */,
+				CB1052451C10A321003A516E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1052491C10A321003A516E /* PBXTargetDependency */,
+			);
+			name = LZTableViewFunTests;
+			productName = LZTableViewFunTests;
+			productReference = CB1052471C10A321003A516E /* LZTableViewFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1052261C10A321003A516E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.comst1314;
+				TargetAttributes = {
+					CB10522D1C10A321003A516E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CB1052461C10A321003A516E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CB10522D1C10A321003A516E;
+					};
+				};
+			};
+			buildConfigurationList = CB1052291C10A321003A516E /* Build configuration list for PBXProject "LZTableViewFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1052251C10A321003A516E;
+			productRefGroup = CB10522F1C10A321003A516E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB10522D1C10A321003A516E /* LZTableViewFun */,
+				CB1052461C10A321003A516E /* LZTableViewFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB10522C1C10A321003A516E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1052581C10A68B003A516E /* sortednames.plist in Resources */,
+				CB10523D1C10A321003A516E /* Main.storyboard in Resources */,
+				CB1052421C10A321003A516E /* LaunchScreen.xib in Resources */,
+				CB10523F1C10A321003A516E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1052451C10A321003A516E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB10522A1C10A321003A516E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB10523A1C10A321003A516E /* ViewController.m in Sources */,
+				CB1052371C10A321003A516E /* AppDelegate.m in Sources */,
+				CB1052341C10A321003A516E /* main.m in Sources */,
+				CB10525B1C10A713003A516E /* LZTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1052431C10A321003A516E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB10524E1C10A321003A516E /* LZTableViewFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB1052491C10A321003A516E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB10522D1C10A321003A516E /* LZTableViewFun */;
+			targetProxy = CB1052481C10A321003A516E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB10523B1C10A321003A516E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB10523C1C10A321003A516E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1052401C10A321003A516E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1052411C10A321003A516E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB10524F1C10A321003A516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB1052501C10A321003A516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1052521C10A321003A516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZTableViewFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB1052531C10A321003A516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZTableViewFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB1052551C10A321003A516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZTableViewFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZTableViewFun.app/LZTableViewFun";
+			};
+			name = Debug;
+		};
+		CB1052561C10A321003A516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZTableViewFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZTableViewFun.app/LZTableViewFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1052291C10A321003A516E /* Build configuration list for PBXProject "LZTableViewFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB10524F1C10A321003A516E /* Debug */,
+				CB1052501C10A321003A516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1052511C10A321003A516E /* Build configuration list for PBXNativeTarget "LZTableViewFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1052521C10A321003A516E /* Debug */,
+				CB1052531C10A321003A516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB1052541C10A321003A516E /* Build configuration list for PBXNativeTarget "LZTableViewFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1052551C10A321003A516E /* Debug */,
+				CB1052561C10A321003A516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1052261C10A321003A516E /* Project object */;
+}
