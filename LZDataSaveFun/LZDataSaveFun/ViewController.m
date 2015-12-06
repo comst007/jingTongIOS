@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "LZFileContent.h"
 #define kFileName @"data.archive"
+
 @interface ViewController ()
 @property (strong, nonatomic) IBOutletCollection(UITextField) NSArray *textFields;
 
