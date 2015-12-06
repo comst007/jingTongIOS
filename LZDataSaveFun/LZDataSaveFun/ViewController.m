@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-#define kFileName @"data.plist"
+#import "LZFileContent.h"
+#define kFileName @"data.archive"
 @interface ViewController ()
 @property (strong, nonatomic) IBOutletCollection(UITextField) NSArray *textFields;
 
@@ -23,18 +23,32 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillResignActive:) name:UIApplicationWillResignActiveNotification object:nil];
     if ([self fileExist]) {
-        [self loadData];
+        [self loadArchiveData];
     }
     
 }
 
-- (void)loadData{
+- (void)loadPlistData{
     
     NSArray *lines = [NSArray arrayWithContentsOfFile:[self filePath]];
     
     for (NSInteger i = 0; i < lines.count; i ++) {
         UITextField *tf = self.textFields[i];
         tf.text = lines[i];
+    }
+    
+}
+
+- (void)loadArchiveData{
+    NSData *readData = [NSData dataWithContentsOfFile:[self filePath]];
+    
+    NSKeyedUnarchiver *unchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:readData];
+    
+    LZFileContent *fileContent = [unchiver decodeObjectForKey:@"fileContent"];
+    
+    for (NSInteger i = 0; i < fileContent.content.count; i ++) {
+        UITextField *tf = self.textFields[i];
+        tf.text = fileContent.content[i];
     }
     
 }
@@ -56,7 +70,7 @@
 
 - (void)applicationWillResignActive:(NSNotification *)noti{
     
-    [self saveDataByPlist];
+    [self saveDataByArchive];
 }
 
 
@@ -66,11 +80,12 @@
     
 }
 
-- (void)saveDataByPlist{
+- (void)prePareBeforeSave{
     
     if ([self fileExist]) {
         
         [[NSFileManager defaultManager] removeItemAtPath:[self filePath] error:nil];
+        
     }
     self.contents = [NSMutableArray array];
     for (UITextField *tf  in self.textFields) {
@@ -79,10 +94,33 @@
         
     }
     
+}
+
+- (void)saveDataByPlist{
+    
+    [self prePareBeforeSave];
+    
     [self.contents writeToFile:[self filePath] atomically:YES];
     
 }
 
-
+- (void)saveDataByArchive{
+    
+    [self prePareBeforeSave];
+    
+    LZFileContent *fileContent = [[LZFileContent alloc] init];
+    fileContent.content = self.contents;
+    
+    NSMutableData *saveData = [NSMutableData data];
+    
+    NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:saveData];
+    
+    [archiver encodeObject:fileContent forKey:@"fileContent"];
+    
+    [archiver finishEncoding];
+    
+    [saveData writeToFile:[self filePath] atomically:YES];
+    
+}
 
 @end

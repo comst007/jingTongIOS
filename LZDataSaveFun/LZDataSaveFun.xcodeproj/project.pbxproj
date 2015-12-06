@@ -14,6 +14,7 @@
 		CBCF98701C14942000F6F6C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF986F1C14942000F6F6C7 /* Images.xcassets */; };
 		CBCF98731C14942000F6F6C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCF98711C14942000F6F6C7 /* LaunchScreen.xib */; };
 		CBCF987F1C14942000F6F6C7 /* LZDataSaveFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF987E1C14942000F6F6C7 /* LZDataSaveFunTests.m */; };
+		CBCF988A1C149D8900F6F6C7 /* LZFileContent.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF98891C149D8900F6F6C7 /* LZFileContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CBCF98781C14942000F6F6C7 /* LZDataSaveFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZDataSaveFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCF987D1C14942000F6F6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBCF987E1C14942000F6F6C7 /* LZDataSaveFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZDataSaveFunTests.m; sourceTree = "<group>"; };
+		CBCF98881C149D8900F6F6C7 /* LZFileContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFileContent.h; sourceTree = "<group>"; };
+		CBCF98891C149D8900F6F6C7 /* LZFileContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFileContent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				CBCF986F1C14942000F6F6C7 /* Images.xcassets */,
 				CBCF98711C14942000F6F6C7 /* LaunchScreen.xib */,
 				CBCF98621C14942000F6F6C7 /* Supporting Files */,
+				CBCF98881C149D8900F6F6C7 /* LZFileContent.h */,
+				CBCF98891C149D8900F6F6C7 /* LZFileContent.m */,
 			);
 			path = LZDataSaveFun;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				CBCF986B1C14942000F6F6C7 /* ViewController.m in Sources */,
 				CBCF98681C14942000F6F6C7 /* AppDelegate.m in Sources */,
 				CBCF98651C14942000F6F6C7 /* main.m in Sources */,
+				CBCF988A1C149D8900F6F6C7 /* LZFileContent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
