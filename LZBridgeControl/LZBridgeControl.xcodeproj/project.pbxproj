@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCF982F1C14293D00F6F6C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF982E1C14293D00F6F6C7 /* main.m */; };
+		CBCF98321C14293D00F6F6C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF98311C14293D00F6F6C7 /* AppDelegate.m */; };
+		CBCF98351C14293D00F6F6C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF98341C14293D00F6F6C7 /* ViewController.m */; };
+		CBCF98381C14293D00F6F6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF98361C14293D00F6F6C7 /* Main.storyboard */; };
+		CBCF983A1C14293D00F6F6C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF98391C14293D00F6F6C7 /* Images.xcassets */; };
+		CBCF983D1C14293D00F6F6C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCF983B1C14293D00F6F6C7 /* LaunchScreen.xib */; };
+		CBCF98491C14293D00F6F6C7 /* LZBridgeControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF98481C14293D00F6F6C7 /* LZBridgeControlTests.m */; };
+		CBCF98551C142D3400F6F6C7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBCF98541C142D3400F6F6C7 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCF98431C14293D00F6F6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCF98211C14293D00F6F6C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCF98281C14293D00F6F6C7;
+			remoteInfo = LZBridgeControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCF98291C14293D00F6F6C7 /* LZBridgeControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZBridgeControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF982D1C14293D00F6F6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF982E1C14293D00F6F6C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBCF98301C14293D00F6F6C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBCF98311C14293D00F6F6C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBCF98331C14293D00F6F6C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBCF98341C14293D00F6F6C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBCF98371C14293D00F6F6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBCF98391C14293D00F6F6C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBCF983C1C14293D00F6F6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBCF98421C14293D00F6F6C7 /* LZBridgeControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZBridgeControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF98471C14293D00F6F6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF98481C14293D00F6F6C7 /* LZBridgeControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZBridgeControlTests.m; sourceTree = "<group>"; };
+		CBCF98541C142D3400F6F6C7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCF98261C14293D00F6F6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF983F1C14293D00F6F6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCF98201C14293D00F6F6C7 = {
+			isa = PBXGroup;
+			children = (
+				CBCF98541C142D3400F6F6C7 /* Settings.bundle */,
+				CBCF982B1C14293D00F6F6C7 /* LZBridgeControl */,
+				CBCF98451C14293D00F6F6C7 /* LZBridgeControlTests */,
+				CBCF982A1C14293D00F6F6C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCF982A1C14293D00F6F6C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF98291C14293D00F6F6C7 /* LZBridgeControl.app */,
+				CBCF98421C14293D00F6F6C7 /* LZBridgeControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCF982B1C14293D00F6F6C7 /* LZBridgeControl */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF98301C14293D00F6F6C7 /* AppDelegate.h */,
+				CBCF98311C14293D00F6F6C7 /* AppDelegate.m */,
+				CBCF98331C14293D00F6F6C7 /* ViewController.h */,
+				CBCF98341C14293D00F6F6C7 /* ViewController.m */,
+				CBCF98361C14293D00F6F6C7 /* Main.storyboard */,
+				CBCF98391C14293D00F6F6C7 /* Images.xcassets */,
+				CBCF983B1C14293D00F6F6C7 /* LaunchScreen.xib */,
+				CBCF982C1C14293D00F6F6C7 /* Supporting Files */,
+			);
+			path = LZBridgeControl;
+			sourceTree = "<group>";
+		};
+		CBCF982C1C14293D00F6F6C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF982D1C14293D00F6F6C7 /* Info.plist */,
+				CBCF982E1C14293D00F6F6C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBCF98451C14293D00F6F6C7 /* LZBridgeControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF98481C14293D00F6F6C7 /* LZBridgeControlTests.m */,
+				CBCF98461C14293D00F6F6C7 /* Supporting Files */,
+			);
+			path = LZBridgeControlTests;
+			sourceTree = "<group>";
+		};
+		CBCF98461C14293D00F6F6C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF98471C14293D00F6F6C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCF98281C14293D00F6F6C7 /* LZBridgeControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF984C1C14293D00F6F6C7 /* Build configuration list for PBXNativeTarget "LZBridgeControl" */;
+			buildPhases = (
+				CBCF98251C14293D00F6F6C7 /* Sources */,
+				CBCF98261C14293D00F6F6C7 /* Frameworks */,
+				CBCF98271C14293D00F6F6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZBridgeControl;
+			productName = LZBridgeControl;
+			productReference = CBCF98291C14293D00F6F6C7 /* LZBridgeControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBCF98411C14293D00F6F6C7 /* LZBridgeControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF984F1C14293D00F6F6C7 /* Build configuration list for PBXNativeTarget "LZBridgeControlTests" */;
+			buildPhases = (
+				CBCF983E1C14293D00F6F6C7 /* Sources */,
+				CBCF983F1C14293D00F6F6C7 /* Frameworks */,
+				CBCF98401C14293D00F6F6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCF98441C14293D00F6F6C7 /* PBXTargetDependency */,
+			);
+			name = LZBridgeControlTests;
+			productName = LZBridgeControlTests;
+			productReference = CBCF98421C14293D00F6F6C7 /* LZBridgeControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCF98211C14293D00F6F6C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.comst1314;
+				TargetAttributes = {
+					CBCF98281C14293D00F6F6C7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CBCF98411C14293D00F6F6C7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CBCF98281C14293D00F6F6C7;
+					};
+				};
+			};
+			buildConfigurationList = CBCF98241C14293D00F6F6C7 /* Build configuration list for PBXProject "LZBridgeControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCF98201C14293D00F6F6C7;
+			productRefGroup = CBCF982A1C14293D00F6F6C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCF98281C14293D00F6F6C7 /* LZBridgeControl */,
+				CBCF98411C14293D00F6F6C7 /* LZBridgeControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCF98271C14293D00F6F6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF98551C142D3400F6F6C7 /* Settings.bundle in Resources */,
+				CBCF98381C14293D00F6F6C7 /* Main.storyboard in Resources */,
+				CBCF983D1C14293D00F6F6C7 /* LaunchScreen.xib in Resources */,
+				CBCF983A1C14293D00F6F6C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF98401C14293D00F6F6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCF98251C14293D00F6F6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF98351C14293D00F6F6C7 /* ViewController.m in Sources */,
+				CBCF98321C14293D00F6F6C7 /* AppDelegate.m in Sources */,
+				CBCF982F1C14293D00F6F6C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF983E1C14293D00F6F6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF98491C14293D00F6F6C7 /* LZBridgeControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCF98441C14293D00F6F6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCF98281C14293D00F6F6C7 /* LZBridgeControl */;
+			targetProxy = CBCF98431C14293D00F6F6C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCF98361C14293D00F6F6C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCF98371C14293D00F6F6C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBCF983B1C14293D00F6F6C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCF983C1C14293D00F6F6C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCF984A1C14293D00F6F6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBCF984B1C14293D00F6F6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCF984D1C14293D00F6F6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZBridgeControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBCF984E1C14293D00F6F6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZBridgeControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBCF98501C14293D00F6F6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZBridgeControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZBridgeControl.app/LZBridgeControl";
+			};
+			name = Debug;
+		};
+		CBCF98511C14293D00F6F6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZBridgeControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZBridgeControl.app/LZBridgeControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCF98241C14293D00F6F6C7 /* Build configuration list for PBXProject "LZBridgeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF984A1C14293D00F6F6C7 /* Debug */,
+				CBCF984B1C14293D00F6F6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCF984C1C14293D00F6F6C7 /* Build configuration list for PBXNativeTarget "LZBridgeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF984D1C14293D00F6F6C7 /* Debug */,
+				CBCF984E1C14293D00F6F6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBCF984F1C14293D00F6F6C7 /* Build configuration list for PBXNativeTarget "LZBridgeControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF98501C14293D00F6F6C7 /* Debug */,
+				CBCF98511C14293D00F6F6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCF98211C14293D00F6F6C7 /* Project object */;
+}
