@@ -15,6 +15,7 @@
 		CBCF98731C14942000F6F6C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCF98711C14942000F6F6C7 /* LaunchScreen.xib */; };
 		CBCF987F1C14942000F6F6C7 /* LZDataSaveFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF987E1C14942000F6F6C7 /* LZDataSaveFunTests.m */; };
 		CBCF988A1C149D8900F6F6C7 /* LZFileContent.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF98891C149D8900F6F6C7 /* LZFileContent.m */; };
+		CBCF988C1C14AE4900F6F6C7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCF988B1C14AE4900F6F6C7 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		CBCF987E1C14942000F6F6C7 /* LZDataSaveFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZDataSaveFunTests.m; sourceTree = "<group>"; };
 		CBCF98881C149D8900F6F6C7 /* LZFileContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFileContent.h; sourceTree = "<group>"; };
 		CBCF98891C149D8900F6F6C7 /* LZFileContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFileContent.m; sourceTree = "<group>"; };
+		CBCF988B1C14AE4900F6F6C7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCF988C1C14AE4900F6F6C7 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 		CBCF98561C14942000F6F6C7 = {
 			isa = PBXGroup;
 			children = (
+				CBCF988B1C14AE4900F6F6C7 /* libsqlite3.dylib */,
 				CBCF98611C14942000F6F6C7 /* LZDataSaveFun */,
 				CBCF987B1C14942000F6F6C7 /* LZDataSaveFunTests */,
 				CBCF98601C14942000F6F6C7 /* Products */,
@@ -422,6 +426,7 @@
 				CBCF98841C14942000F6F6C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBCF98851C14942000F6F6C7 /* Build configuration list for PBXNativeTarget "LZDataSaveFunTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +435,7 @@
 				CBCF98871C14942000F6F6C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
