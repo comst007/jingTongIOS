@@ -27,6 +27,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="t9M-7v-McB" kind="show" identifier="CellToDetail" id="7Iq-bi-nrh"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -45,7 +48,73 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="796" y="378"/>
+            <point key="canvasLocation" x="112" y="608"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="OEk-FP-sEi">
+            <objects>
+                <viewController id="t9M-7v-McB" customClass="LZDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oba-bV-PSM"/>
+                        <viewControllerLayoutGuide type="bottom" id="0z2-sI-1V6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="APi-Uv-n8U">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ohu-vd-3Ut" customClass="LZDocumentView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="6uF-Ab-y2r"/>
+                                    <constraint firstAttribute="width" constant="350" id="MCk-yI-E48"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6uF-Ab-y2r"/>
+                                        <exclude reference="MCk-yI-E48"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="6uF-Ab-y2r"/>
+                                        <include reference="MCk-yI-E48"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="ohu-vd-3Ut" secondAttribute="centerY" id="aMP-K1-oAX"/>
+                            <constraint firstAttribute="centerX" secondItem="ohu-vd-3Ut" secondAttribute="centerX" id="etZ-Ui-loA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ohu-vd-3Ut"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="aMP-K1-oAX"/>
+                                <exclude reference="etZ-Ui-loA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ohu-vd-3Ut"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="aMP-K1-oAX"/>
+                                <include reference="etZ-Ui-loA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="docView" destination="ohu-vd-3Ut" id="pSt-qt-DKR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mym-Jq-9dV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.75" y="588.375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dSF-nB-lY3">
@@ -61,7 +130,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wi-QY-R6e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-24" y="378"/>
+            <point key="canvasLocation" x="-72" y="-88"/>
         </scene>
     </scenes>
 </document>

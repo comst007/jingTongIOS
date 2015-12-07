@@ -17,6 +17,8 @@
 		CBCF99201C15809300F6F6C7 /* LZDocumentFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF991F1C15809300F6F6C7 /* LZDocumentFunTests.m */; };
 		CBCF992B1C15824100F6F6C7 /* LZDocumentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF992A1C15824100F6F6C7 /* LZDocumentModel.m */; };
 		CBCF992E1C158F5300F6F6C7 /* LZMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF992D1C158F5300F6F6C7 /* LZMainTableViewController.m */; };
+		CBCF99311C15D0E100F6F6C7 /* LZDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF99301C15D0E100F6F6C7 /* LZDocumentView.m */; };
+		CBCF99341C15D89A00F6F6C7 /* LZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF99331C15D89A00F6F6C7 /* LZDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		CBCF992A1C15824100F6F6C7 /* LZDocumentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDocumentModel.m; sourceTree = "<group>"; };
 		CBCF992C1C158F5300F6F6C7 /* LZMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMainTableViewController.h; sourceTree = "<group>"; };
 		CBCF992D1C158F5300F6F6C7 /* LZMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMainTableViewController.m; sourceTree = "<group>"; };
+		CBCF992F1C15D0E100F6F6C7 /* LZDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDocumentView.h; sourceTree = "<group>"; };
+		CBCF99301C15D0E100F6F6C7 /* LZDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDocumentView.m; sourceTree = "<group>"; };
+		CBCF99321C15D89A00F6F6C7 /* LZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDetailViewController.h; sourceTree = "<group>"; };
+		CBCF99331C15D89A00F6F6C7 /* LZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 				CBCF992A1C15824100F6F6C7 /* LZDocumentModel.m */,
 				CBCF992C1C158F5300F6F6C7 /* LZMainTableViewController.h */,
 				CBCF992D1C158F5300F6F6C7 /* LZMainTableViewController.m */,
+				CBCF992F1C15D0E100F6F6C7 /* LZDocumentView.h */,
+				CBCF99301C15D0E100F6F6C7 /* LZDocumentView.m */,
+				CBCF99321C15D89A00F6F6C7 /* LZDetailViewController.h */,
+				CBCF99331C15D89A00F6F6C7 /* LZDetailViewController.m */,
 			);
 			path = LZDocumentFun;
 			sourceTree = "<group>";
@@ -235,8 +245,10 @@
 				CBCF992E1C158F5300F6F6C7 /* LZMainTableViewController.m in Sources */,
 				CBCF99091C15809300F6F6C7 /* LZDocumentFun.xcdatamodeld in Sources */,
 				CBCF99061C15809300F6F6C7 /* AppDelegate.m in Sources */,
+				CBCF99341C15D89A00F6F6C7 /* LZDetailViewController.m in Sources */,
 				CBCF990C1C15809300F6F6C7 /* ViewController.m in Sources */,
 				CBCF992B1C15824100F6F6C7 /* LZDocumentModel.m in Sources */,
+				CBCF99311C15D0E100F6F6C7 /* LZDocumentView.m in Sources */,
 				CBCF99031C15809300F6F6C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
