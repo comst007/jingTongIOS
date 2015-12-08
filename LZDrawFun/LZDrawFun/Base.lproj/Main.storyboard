@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ouj-Zv-iSx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Line" id="H4R-vJ-JZo">
+                                        <connections>
+                                            <action selector="lineShapeSelect:" destination="vXZ-lx-hvc" id="nOg-SV-820"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zFs-a0-UCc"/>
+                                    <barButtonItem title="Rectangle" id="Btz-dB-vGO">
+                                        <connections>
+                                            <action selector="rectangleShapeSelect:" destination="vXZ-lx-hvc" id="9sY-eD-p0g"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="kd4-lf-iiE"/>
+                                    <barButtonItem title="Oval" id="Rx8-Ss-Cn1">
+                                        <connections>
+                                            <action selector="ovalShapeSelected:" destination="vXZ-lx-hvc" id="uHR-DU-0dw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="uZf-kc-knZ"/>
+                                    <barButtonItem title="Image" id="kJu-c6-nq7">
+                                        <connections>
+                                            <action selector="imageShapSlected:" destination="vXZ-lx-hvc" id="S57-Rm-G7U"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="qJH-Zu-eww"/>
+                                </connections>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4A-dK-a5S">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="LKv-ve-zS1"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem id="1Xb-iR-Brn">
+                                        <nil key="title"/>
+                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="HBk-JT-1FI">
+                                            <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Red"/>
+                                                <segment title="Green"/>
+                                                <segment title="Blue"/>
+                                                <segment title="Random"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="colorSelected:" destination="vXZ-lx-hvc" eventType="valueChanged" id="cWw-1T-u0C"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </navigationItem>
+                                </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LKv-ve-zS1"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="LKv-ve-zS1"/>
+                                    </mask>
+                                </variation>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFc-rv-UVJ" customClass="LZDrawView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="b4A-dK-a5S" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="2ga-G1-VOM"/>
+                            <constraint firstAttribute="trailing" secondItem="b4A-dK-a5S" secondAttribute="trailing" id="2or-jK-Ewr"/>
+                            <constraint firstItem="Ouj-Zv-iSx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="FBe-Ta-aO3"/>
+                            <constraint firstItem="SFc-rv-UVJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="FIh-13-V2q"/>
+                            <constraint firstItem="b4A-dK-a5S" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="MRn-3l-zt0"/>
+                            <constraint firstItem="Ouj-Zv-iSx" firstAttribute="top" secondItem="SFc-rv-UVJ" secondAttribute="bottom" constant="39" id="acb-0h-oai"/>
+                            <constraint firstAttribute="trailing" secondItem="SFc-rv-UVJ" secondAttribute="trailing" constant="16" id="dJK-3B-osc"/>
+                            <constraint firstAttribute="trailing" secondItem="Ouj-Zv-iSx" secondAttribute="trailing" id="i9t-tT-RdD"/>
+                            <constraint firstItem="SFc-rv-UVJ" firstAttribute="top" secondItem="b4A-dK-a5S" secondAttribute="bottom" constant="40" id="w0H-sX-YRa"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Ouj-Zv-iSx" secondAttribute="bottom" id="yh8-Zn-RBA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Ouj-Zv-iSx"/>
+                                <exclude reference="b4A-dK-a5S"/>
+                                <exclude reference="SFc-rv-UVJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2ga-G1-VOM"/>
+                                <exclude reference="2or-jK-Ewr"/>
+                                <exclude reference="MRn-3l-zt0"/>
+                                <exclude reference="FIh-13-V2q"/>
+                                <exclude reference="dJK-3B-osc"/>
+                                <exclude reference="w0H-sX-YRa"/>
+                                <exclude reference="FBe-Ta-aO3"/>
+                                <exclude reference="acb-0h-oai"/>
+                                <exclude reference="i9t-tT-RdD"/>
+                                <exclude reference="yh8-Zn-RBA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Ouj-Zv-iSx"/>
+                                <include reference="b4A-dK-a5S"/>
+                                <include reference="SFc-rv-UVJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2ga-G1-VOM"/>
+                                <include reference="2or-jK-Ewr"/>
+                                <include reference="MRn-3l-zt0"/>
+                                <include reference="FIh-13-V2q"/>
+                                <include reference="dJK-3B-osc"/>
+                                <include reference="w0H-sX-YRa"/>
+                                <include reference="FBe-Ta-aO3"/>
+                                <include reference="acb-0h-oai"/>
+                                <include reference="i9t-tT-RdD"/>
+                                <include reference="yh8-Zn-RBA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="colorSegment" destination="HBk-JT-1FI" id="ajP-Qi-gUe"/>
+                        <outlet property="drawView" destination="SFc-rv-UVJ" id="ruh-Kv-sbS"/>
+                        <outlet property="shapeSelect" destination="Ouj-Zv-iSx" id="fwr-qR-feb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428.25" y="376.875"/>
+        </scene>
+    </scenes>
+</document>
