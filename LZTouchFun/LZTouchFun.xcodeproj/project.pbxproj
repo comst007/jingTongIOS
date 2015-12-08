@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0181901C17465A00290197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01818F1C17465A00290197 /* main.m */; };
+		CB0181931C17465A00290197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0181921C17465A00290197 /* AppDelegate.m */; };
+		CB0181961C17465A00290197 /* LZTouchFun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB0181941C17465A00290197 /* LZTouchFun.xcdatamodeld */; };
+		CB0181991C17465A00290197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0181981C17465A00290197 /* ViewController.m */; };
+		CB01819C1C17465A00290197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB01819A1C17465A00290197 /* Main.storyboard */; };
+		CB01819E1C17465A00290197 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB01819D1C17465A00290197 /* Images.xcassets */; };
+		CB0181A11C17465A00290197 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB01819F1C17465A00290197 /* LaunchScreen.xib */; };
+		CB0181AD1C17465B00290197 /* LZTouchFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0181AC1C17465B00290197 /* LZTouchFunTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0181A71C17465B00290197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0181821C17465A00290197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0181891C17465A00290197;
+			remoteInfo = LZTouchFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB01818A1C17465A00290197 /* LZTouchFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZTouchFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB01818E1C17465A00290197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB01818F1C17465A00290197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB0181911C17465A00290197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB0181921C17465A00290197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB0181951C17465A00290197 /* LZTouchFun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LZTouchFun.xcdatamodel; sourceTree = "<group>"; };
+		CB0181971C17465A00290197 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB0181981C17465A00290197 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB01819B1C17465A00290197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB01819D1C17465A00290197 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB0181A01C17465A00290197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB0181A61C17465B00290197 /* LZTouchFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZTouchFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0181AB1C17465B00290197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0181AC1C17465B00290197 /* LZTouchFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTouchFunTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0181871C17465A00290197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0181A31C17465B00290197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0181811C17465A00290197 = {
+			isa = PBXGroup;
+			children = (
+				CB01818C1C17465A00290197 /* LZTouchFun */,
+				CB0181A91C17465B00290197 /* LZTouchFunTests */,
+				CB01818B1C17465A00290197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB01818B1C17465A00290197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB01818A1C17465A00290197 /* LZTouchFun.app */,
+				CB0181A61C17465B00290197 /* LZTouchFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB01818C1C17465A00290197 /* LZTouchFun */ = {
+			isa = PBXGroup;
+			children = (
+				CB0181911C17465A00290197 /* AppDelegate.h */,
+				CB0181921C17465A00290197 /* AppDelegate.m */,
+				CB0181971C17465A00290197 /* ViewController.h */,
+				CB0181981C17465A00290197 /* ViewController.m */,
+				CB01819A1C17465A00290197 /* Main.storyboard */,
+				CB01819D1C17465A00290197 /* Images.xcassets */,
+				CB01819F1C17465A00290197 /* LaunchScreen.xib */,
+				CB0181941C17465A00290197 /* LZTouchFun.xcdatamodeld */,
+				CB01818D1C17465A00290197 /* Supporting Files */,
+			);
+			path = LZTouchFun;
+			sourceTree = "<group>";
+		};
+		CB01818D1C17465A00290197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB01818E1C17465A00290197 /* Info.plist */,
+				CB01818F1C17465A00290197 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB0181A91C17465B00290197 /* LZTouchFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0181AC1C17465B00290197 /* LZTouchFunTests.m */,
+				CB0181AA1C17465B00290197 /* Supporting Files */,
+			);
+			path = LZTouchFunTests;
+			sourceTree = "<group>";
+		};
+		CB0181AA1C17465B00290197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0181AB1C17465B00290197 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0181891C17465A00290197 /* LZTouchFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0181B01C17465B00290197 /* Build configuration list for PBXNativeTarget "LZTouchFun" */;
+			buildPhases = (
+				CB0181861C17465A00290197 /* Sources */,
+				CB0181871C17465A00290197 /* Frameworks */,
+				CB0181881C17465A00290197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZTouchFun;
+			productName = LZTouchFun;
+			productReference = CB01818A1C17465A00290197 /* LZTouchFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB0181A51C17465B00290197 /* LZTouchFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0181B31C17465B00290197 /* Build configuration list for PBXNativeTarget "LZTouchFunTests" */;
+			buildPhases = (
+				CB0181A21C17465B00290197 /* Sources */,
+				CB0181A31C17465B00290197 /* Frameworks */,
+				CB0181A41C17465B00290197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0181A81C17465B00290197 /* PBXTargetDependency */,
+			);
+			name = LZTouchFunTests;
+			productName = LZTouchFunTests;
+			productReference = CB0181A61C17465B00290197 /* LZTouchFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0181821C17465A00290197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.comst1314;
+				TargetAttributes = {
+					CB0181891C17465A00290197 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CB0181A51C17465B00290197 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CB0181891C17465A00290197;
+					};
+				};
+			};
+			buildConfigurationList = CB0181851C17465A00290197 /* Build configuration list for PBXProject "LZTouchFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0181811C17465A00290197;
+			productRefGroup = CB01818B1C17465A00290197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0181891C17465A00290197 /* LZTouchFun */,
+				CB0181A51C17465B00290197 /* LZTouchFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0181881C17465A00290197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01819C1C17465A00290197 /* Main.storyboard in Resources */,
+				CB0181A11C17465A00290197 /* LaunchScreen.xib in Resources */,
+				CB01819E1C17465A00290197 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0181A41C17465B00290197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0181861C17465A00290197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0181931C17465A00290197 /* AppDelegate.m in Sources */,
+				CB0181901C17465A00290197 /* main.m in Sources */,
+				CB0181991C17465A00290197 /* ViewController.m in Sources */,
+				CB0181961C17465A00290197 /* LZTouchFun.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0181A21C17465B00290197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0181AD1C17465B00290197 /* LZTouchFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB0181A81C17465B00290197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0181891C17465A00290197 /* LZTouchFun */;
+			targetProxy = CB0181A71C17465B00290197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB01819A1C17465A00290197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB01819B1C17465A00290197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB01819F1C17465A00290197 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0181A01C17465A00290197 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0181AE1C17465B00290197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB0181AF1C17465B00290197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0181B11C17465B00290197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZTouchFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB0181B21C17465B00290197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZTouchFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB0181B41C17465B00290197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZTouchFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZTouchFun.app/LZTouchFun";
+			};
+			name = Debug;
+		};
+		CB0181B51C17465B00290197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZTouchFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZTouchFun.app/LZTouchFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0181851C17465A00290197 /* Build configuration list for PBXProject "LZTouchFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0181AE1C17465B00290197 /* Debug */,
+				CB0181AF1C17465B00290197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0181B01C17465B00290197 /* Build configuration list for PBXNativeTarget "LZTouchFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0181B11C17465B00290197 /* Debug */,
+				CB0181B21C17465B00290197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB0181B31C17465B00290197 /* Build configuration list for PBXNativeTarget "LZTouchFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0181B41C17465B00290197 /* Debug */,
+				CB0181B51C17465B00290197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB0181941C17465A00290197 /* LZTouchFun.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB0181951C17465A00290197 /* LZTouchFun.xcdatamodel */,
+			);
+			currentVersion = CB0181951C17465A00290197 /* LZTouchFun.xcdatamodel */;
+			path = LZTouchFun.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB0181821C17465A00290197 /* Project object */;
+}
