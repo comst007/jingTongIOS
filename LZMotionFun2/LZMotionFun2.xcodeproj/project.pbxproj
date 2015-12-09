@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0182311C18A28E00290197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0182301C18A28E00290197 /* main.m */; };
+		CB0182341C18A28E00290197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0182331C18A28E00290197 /* AppDelegate.m */; };
+		CB0182371C18A28E00290197 /* LZMotionFun2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB0182351C18A28E00290197 /* LZMotionFun2.xcdatamodeld */; };
+		CB01823A1C18A28E00290197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0182391C18A28E00290197 /* ViewController.m */; };
+		CB01823D1C18A28E00290197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB01823B1C18A28E00290197 /* Main.storyboard */; };
+		CB01823F1C18A28E00290197 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB01823E1C18A28E00290197 /* Images.xcassets */; };
+		CB0182421C18A28E00290197 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0182401C18A28E00290197 /* LaunchScreen.xib */; };
+		CB01824E1C18A28E00290197 /* LZMotionFun2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01824D1C18A28E00290197 /* LZMotionFun2Tests.m */; };
+		CB0182581C18A2CA00290197 /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB0182571C18A2CA00290197 /* glass.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0182481C18A28E00290197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0182231C18A28E00290197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB01822A1C18A28E00290197;
+			remoteInfo = LZMotionFun2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB01822B1C18A28E00290197 /* LZMotionFun2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZMotionFun2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB01822F1C18A28E00290197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0182301C18A28E00290197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB0182321C18A28E00290197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB0182331C18A28E00290197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB0182361C18A28E00290197 /* LZMotionFun2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LZMotionFun2.xcdatamodel; sourceTree = "<group>"; };
+		CB0182381C18A28E00290197 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB0182391C18A28E00290197 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB01823C1C18A28E00290197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB01823E1C18A28E00290197 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB0182411C18A28E00290197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB0182471C18A28E00290197 /* LZMotionFun2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZMotionFun2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB01824C1C18A28E00290197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB01824D1C18A28E00290197 /* LZMotionFun2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMotionFun2Tests.m; sourceTree = "<group>"; };
+		CB0182571C18A2CA00290197 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0182281C18A28E00290197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0182441C18A28E00290197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0182221C18A28E00290197 = {
+			isa = PBXGroup;
+			children = (
+				CB01822D1C18A28E00290197 /* LZMotionFun2 */,
+				CB01824A1C18A28E00290197 /* LZMotionFun2Tests */,
+				CB01822C1C18A28E00290197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB01822C1C18A28E00290197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB01822B1C18A28E00290197 /* LZMotionFun2.app */,
+				CB0182471C18A28E00290197 /* LZMotionFun2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB01822D1C18A28E00290197 /* LZMotionFun2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB0182321C18A28E00290197 /* AppDelegate.h */,
+				CB0182331C18A28E00290197 /* AppDelegate.m */,
+				CB0182381C18A28E00290197 /* ViewController.h */,
+				CB0182391C18A28E00290197 /* ViewController.m */,
+				CB01823B1C18A28E00290197 /* Main.storyboard */,
+				CB01823E1C18A28E00290197 /* Images.xcassets */,
+				CB0182401C18A28E00290197 /* LaunchScreen.xib */,
+				CB0182351C18A28E00290197 /* LZMotionFun2.xcdatamodeld */,
+				CB01822E1C18A28E00290197 /* Supporting Files */,
+			);
+			path = LZMotionFun2;
+			sourceTree = "<group>";
+		};
+		CB01822E1C18A28E00290197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0182571C18A2CA00290197 /* glass.wav */,
+				CB01822F1C18A28E00290197 /* Info.plist */,
+				CB0182301C18A28E00290197 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB01824A1C18A28E00290197 /* LZMotionFun2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB01824D1C18A28E00290197 /* LZMotionFun2Tests.m */,
+				CB01824B1C18A28E00290197 /* Supporting Files */,
+			);
+			path = LZMotionFun2Tests;
+			sourceTree = "<group>";
+		};
+		CB01824B1C18A28E00290197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB01824C1C18A28E00290197 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB01822A1C18A28E00290197 /* LZMotionFun2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0182511C18A28E00290197 /* Build configuration list for PBXNativeTarget "LZMotionFun2" */;
+			buildPhases = (
+				CB0182271C18A28E00290197 /* Sources */,
+				CB0182281C18A28E00290197 /* Frameworks */,
+				CB0182291C18A28E00290197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZMotionFun2;
+			productName = LZMotionFun2;
+			productReference = CB01822B1C18A28E00290197 /* LZMotionFun2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB0182461C18A28E00290197 /* LZMotionFun2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0182541C18A28E00290197 /* Build configuration list for PBXNativeTarget "LZMotionFun2Tests" */;
+			buildPhases = (
+				CB0182431C18A28E00290197 /* Sources */,
+				CB0182441C18A28E00290197 /* Frameworks */,
+				CB0182451C18A28E00290197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0182491C18A28E00290197 /* PBXTargetDependency */,
+			);
+			name = LZMotionFun2Tests;
+			productName = LZMotionFun2Tests;
+			productReference = CB0182471C18A28E00290197 /* LZMotionFun2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0182231C18A28E00290197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.comst1314;
+				TargetAttributes = {
+					CB01822A1C18A28E00290197 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CB0182461C18A28E00290197 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CB01822A1C18A28E00290197;
+					};
+				};
+			};
+			buildConfigurationList = CB0182261C18A28E00290197 /* Build configuration list for PBXProject "LZMotionFun2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0182221C18A28E00290197;
+			productRefGroup = CB01822C1C18A28E00290197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB01822A1C18A28E00290197 /* LZMotionFun2 */,
+				CB0182461C18A28E00290197 /* LZMotionFun2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0182291C18A28E00290197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01823D1C18A28E00290197 /* Main.storyboard in Resources */,
+				CB0182421C18A28E00290197 /* LaunchScreen.xib in Resources */,
+				CB01823F1C18A28E00290197 /* Images.xcassets in Resources */,
+				CB0182581C18A2CA00290197 /* glass.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0182451C18A28E00290197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0182271C18A28E00290197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0182371C18A28E00290197 /* LZMotionFun2.xcdatamodeld in Sources */,
+				CB0182341C18A28E00290197 /* AppDelegate.m in Sources */,
+				CB01823A1C18A28E00290197 /* ViewController.m in Sources */,
+				CB0182311C18A28E00290197 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0182431C18A28E00290197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01824E1C18A28E00290197 /* LZMotionFun2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB0182491C18A28E00290197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB01822A1C18A28E00290197 /* LZMotionFun2 */;
+			targetProxy = CB0182481C18A28E00290197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB01823B1C18A28E00290197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB01823C1C18A28E00290197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB0182401C18A28E00290197 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0182411C18A28E00290197 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB01824F1C18A28E00290197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB0182501C18A28E00290197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0182521C18A28E00290197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZMotionFun2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB0182531C18A28E00290197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZMotionFun2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB0182551C18A28E00290197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZMotionFun2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZMotionFun2.app/LZMotionFun2";
+			};
+			name = Debug;
+		};
+		CB0182561C18A28E00290197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZMotionFun2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZMotionFun2.app/LZMotionFun2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0182261C18A28E00290197 /* Build configuration list for PBXProject "LZMotionFun2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB01824F1C18A28E00290197 /* Debug */,
+				CB0182501C18A28E00290197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0182511C18A28E00290197 /* Build configuration list for PBXNativeTarget "LZMotionFun2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0182521C18A28E00290197 /* Debug */,
+				CB0182531C18A28E00290197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB0182541C18A28E00290197 /* Build configuration list for PBXNativeTarget "LZMotionFun2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0182551C18A28E00290197 /* Debug */,
+				CB0182561C18A28E00290197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB0182351C18A28E00290197 /* LZMotionFun2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB0182361C18A28E00290197 /* LZMotionFun2.xcdatamodel */,
+			);
+			currentVersion = CB0182361C18A28E00290197 /* LZMotionFun2.xcdatamodel */;
+			path = LZMotionFun2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB0182231C18A28E00290197 /* Project object */;
+}
